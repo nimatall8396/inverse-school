@@ -1,0 +1,522 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+        color: #495057;
+}
+
+nav .dropdown-toggle::after {
+    background-image: url(../imgs/ArrowDown.png);
+    border: unset;
+    width: 15px;
+    height: 15px;
+    vertical-align: unset;
+
+}
+
+ul.navbar-nav a.nav-link {
+    color: #343A40 !important;
+}
+
+button.btn.add-to-cart {
+    background: #5F6F52;
+    color: white;
+}
+
+button.btn.add-to-cart img {
+    margin-right: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-title {
+    position: absolute;
+    top: 100px;
+    text-align: left;
+}
+
+.swiper-title img {
+    width: unset;
+}
+.my-btn-main {
+    background: #5F6F52;
+    color: white;
+}
+.swiper-subtitle {
+    width: 516px;
+    padding: 47px 0px;
+}
+button.btn.swiper-contact {
+    color: #343A40;
+    font-weight: 600;
+}
+button.btn.swiper-contact i.fa.fa-angle-right {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 19.92px;
+    height: 19.92px;
+    color: #212529;
+    margin-left: 6px;
+}
+.btn-primary{
+    background: #5F6F52;
+    border-color: #5F6F52;
+}
+.btn-primary:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #5f6f52b0;
+    border-color: #5f6f52b0!important;
+}
+nav.navbar.bg-light.navbar-expand-lg {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: unset !important;
+}
+.swiper-button-next, .swiper-button-prev {
+
+    color: #5f6f52;
+}
+
+@media  (min-width:768px) {
+    ul.navbar-nav > li.nav-item {
+        margin: 0 9px;
+    }
+    
+}
+a.nav-link.active {
+    font-weight: 600;
+}
+
+.section-title{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-weight: 500;
+    font-size: 52px;
+    text-align: center;
+    color: #343A40;
+}
+.section-subtitle{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.swiper.mySwiper-Services .card img.card-img-top {
+    width: 80px !important;
+    margin: auto;
+    height: 80px;
+    object-fit: contain;
+}
+.swiper.mySwiper-Services .card {
+    border: none;
+}
+.swiper.mySwiper-Services .card h5.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #343A40;
+}
+.swiper.mySwiper-Services .card p.card-text {
+    font-size: 16px;
+    color: #000000;
+}
+.swiper.mySwiper-Services .card a.btn.btn-primary {
+    color: #5F6F52;
+    background-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.card.get-started {
+    box-shadow: -71.7456px 69.6604px 80px rgba(0, 0, 0, 0.11), -46.5018px 45.1503px 46.8519px rgba(0, 0, 0, 0.0835185), -27.6353px 26.8322px 25.4815px rgba(0, 0, 0, 0.0668148), -14.3491px 13.9321px 13px rgba(0, 0, 0, 0.055), -5.84594px 5.67603px 6.51852px rgba(0, 0, 0, 0.0431852), -1.32862px 1.29001px 3.14815px rgba(0, 0, 0, 0.0264815);
+    background-color: #5f6f52;
+    border-color: #5f6f52;
+    border-radius: 30px;
+}
+.card.get-started {
+    box-shadow: -71.7456px 69.6604px 80px rgba(0, 0, 0, 0.11), -46.5018px 45.1503px 46.8519px rgba(0, 0, 0, 0.0835185), -27.6353px 26.8322px 25.4815px rgba(0, 0, 0, 0.0668148), -14.3491px 13.9321px 13px rgba(0, 0, 0, 0.055), -5.84594px 5.67603px 6.51852px rgba(0, 0, 0, 0.0431852), -1.32862px 1.29001px 3.14815px rgba(0, 0, 0, 0.0264815);
+    background-color: #5f6f52;
+    border-color: #5f6f52;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+.card.get-started a.btn.btn-primary {
+    background-color: white;
+    border-radius: 6px;
+    color: #5F6F52;
+}
+section#Our-services {
+    padding-top: 48px;
+}
+.card.get-started h5.card-title {
+    font-weight: 700;
+    font-size: 28px;
+}
+.card.get-started p.card-text {
+    margin-top: 29px;
+    margin-bottom: 34px;
+}
+section#Our-services a.btn.btn-primary {
+    font-weight: 600;
+}
+section#Our-services .swiper-button-prev {
+    right: 100px;
+    left: auto;
+    top: 94%;
+}
+section#Our-services .swiper-button-next {
+    top: 94%;
+}
+
+section#Our-services .swiper-button-prev:after ,section#Our-services .swiper-button-next:after{
+    display: none;
+} 
+.section-subtitle {
+    color: rgba(0, 0, 0, 1);
+}
+#main-slider{
+    background-image: url(../imgs/mainslider-back.png);
+}
+nav .dropdown-toggle::after {
+    vertical-align: middle;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color:#5F6F52;
+    border-color: #5F6F52;
+}
+section#latest-classes {
+    margin-top: 130px;
+}
+.container.yoga-tabs ul#pills-tab {
+    display: flex;
+    justify-content: center;
+}
+.container.yoga-tabs ul#pills-tab li.nav-item button.nav-link {
+    color: rgba(52, 58, 64, 1);
+    font-weight: 700;
+}
+.container.yoga-tabs ul#pills-tab li.nav-item button.active {
+    background-color: white;
+    color: #5f6f52;
+    border: 2px solid;
+    font-weight: 700;
+    border-radius: 14px;
+}
+.col-md-6.yoga-tabs-img img {
+    width: 100%;
+    border-radius: 25px;
+}
+.number-icon {
+    color: rgba(95, 111, 82, 1);
+    font-size: 64px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-6.yoga-tabs-contant-item-container-item .card {
+    border: unset;
+}
+.col-6.yoga-tabs-contant-item-container-item .card h5.card-title {
+    font-size: 24px;
+    color: rgba(52, 58, 64, 1);
+    font-weight: 700;
+    margin-top: 14px;
+}
+.col-md-6.yoga-tabs-contant > p {
+    margin-bottom: 33px;
+}
+.col-md-6.yoga-tabs-img img {
+    width: 100%;
+    border-radius: 25px;
+    max-height: 639px;
+    object-fit: cover;
+}
+.col-md-6.yoga-tabs-contant > h3 {
+    color: rgba(52, 58, 64, 1);
+    font-size: 28px;
+    font-weight: 700;
+}
+.container.yoga-tabs ul#pills-tab {
+
+    margin-bottom: 48px !important;
+}
+.swiper.mySwiper-Services.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding-bottom: 6px;
+}
+button.btn.my-btn-main.btn-primary.text-center.free-trial {
+    display: block;
+    margin: auto;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+section#team-members  .section-title b {
+    font-weight: 500;
+    color: #5f6f52;
+}
+section#team-members {
+    background-color: rgba(33, 37, 41, 1);
+}
+section#team-members  .section-title {
+    color: white;
+}
+section#team-members .section-subtitle {
+    color: rgba(173, 181, 189, 1);
+}
+p.team-explanation {
+    color: rgba(173, 181, 189, 1);
+    text-align: center;
+}
+section#team-members .section-subtitle {
+    margin-bottom: 47px;
+}
+section#team-members {
+    background-color: rgba(33, 37, 41, 1);
+    padding-top: 55px;
+}
+.row.teammate-gallery img {
+    object-fit: cover;
+    width: 100%;
+}
+.row.teammate-gallery img {
+    object-fit: cover;
+    width: 96%;
+    height: 374px;
+    border-radius: 25px;
+    margin-bottom: 41px;
+}
+p.team-explanation {
+    margin-bottom: 47px;
+}
+section#team-members {
+    padding-bottom: 36px;
+}
+
+
+#free-trial-section {
+    background: url(../imgs/freemembership.jpeg) rgba(61, 72, 52, 0.78);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 150px 0px;
+}
+.free-trial-card {
+    background-color: white;
+    border-radius: 35px;
+    padding: 47px 47px;
+}
+.free-trial-card > h5 {
+    font-size: 52px;
+    font-weight: 500;
+    font-family: 'Fredoka';
+    color: rgba(52, 58, 64, 1);
+}
+.free-trial-card > p {
+    color: rgba(52, 58, 64, 1);
+}
+.free-trial-card {
+    margin-right: 26px;
+}
+.free-trial-card > h5 {
+    margin-bottom: 28px;
+}
+ul.footer-nav.navbar-nav.justify-content-center {
+    display: flex;
+    flex-direction: row;
+}
+.footer-sec {
+    display: flex;
+    justify-content: space-between;
+}
+ul.social-media {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+ul.social-media li {
+    margin-right: 14px;
+}
+footer hr {
+    color: rgb(158 162 165);
+}
+@media (min-width: 1200px) {
+    .container.mycontainer {
+        max-width: 1350px;
+    }
+    .ourservice-container{
+        max-width: 1350px;
+
+    }
+}
+footer {
+    padding: 30px 0px;
+}
+.copyright {
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+    section.swiper.mySwiper {
+        height: 832px;
+    }
+}
+.swiper.mySwiper-Services.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding-bottom: 40px;
+    height: 111%;
+}
+ul.footer-nav.navbar-nav.justify-content-center {
+
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .swiper-title img {
+        width: 57%;
+    }
+    .swiper-subtitle {
+        width: 65%;
+        padding: 14px 0px;
+    }
+    .swiper-subtitle {
+        width: 492px;
+        padding: 14px 0px;
+        font-size: 11px;
+        color: black;
+    }
+    .swiper-title.container {
+        background-color: #c7c3b757;
+        padding: 8px 6px;
+        border-radius: 6px;
+    }
+    .swiper-title {
+        top: 74px;
+        text-align: left;
+        padding-left: 46px !important;
+    }
+    section.swiper.mySwiper {
+        height: 318px;
+    }
+    section.swiper.mySwiper .swiper-slide.swiper-slide-active > img {
+        filter: blur(1px);
+    }
+    nav.navbar.bg-light.navbar-expand-lg > .container a.navbar-brand {
+        margin: auto;
+    }
+    nav.navbar.bg-light.navbar-expand-lg > .container a.navbar-brand img {
+        width: 144px;
+    }
+    button.btn.add-to-cart {
+        font-size: 11px;
+        padding: 6px 5px;
+    }
+    nav.navbar.bg-light.navbar-expand-lg > .container a.navbar-brand img {
+        width: 144px;
+        margin-left: 10%;
+    }
+    .card.get-started {
+        box-shadow: unset;
+    }
+    .swiper.mySwiper-Services .card h5.card-title {
+        font-size: 19px;
+        font-weight: 700;
+        color: #343A40;
+    }
+    section#Our-services .swiper-button-prev {
+        right: 60%;
+    }
+    section#Our-services .swiper-button-next {
+        left: 60%;
+    }
+    .container.yoga-tabs li.nav-item {
+        margin-bottom: 14px;
+    }
+    .container.yoga-tabs ul#pills-tab {
+        margin-bottom: 21px !important;
+    }
+    .col-6.yoga-tabs-contant-item-container-item .card {
+        text-align: center;
+    }
+    .number-icon {
+        font-size: 64px;
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+    .col-6.yoga-tabs-contant-item-container-item .card h5.card-title {
+        font-size: 16px;
+    }
+    .card-text:last-child {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .free-trial-card {
+        margin-right: 0;
+    }
+    #free-trial-section {
+        padding: 19px 0px;
+    }
+    .free-trial-card > h5 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .free-trial-card > p {
+        color: rgba(52, 58, 64, 1);
+        text-align: center;
+    }
+    .footer-sec {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul.footer-nav.navbar-nav.justify-content-center li.nav-item {
+        margin: 0px 10px;
+    }
+    .free-trial-card .calltoaction {
+        display: flex;
+        justify-content: center;
+    }
+    .col-md-6.yoga-tabs-contant {
+        margin-top: 36px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 30px;
+    }
+    .swiper-subtitle {
+        width: 62%;
+    }
+    button.btn.swiper-contact {
+        background: aliceblue;
+    }
+    .swiper-title.container {
+        padding-bottom: 75px;
+    }
+    .free-trial-card .calltoaction button.btn.swiper-contact {
+        background: unset;
+    }
+}
+
